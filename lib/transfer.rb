@@ -8,5 +8,7 @@ require 'pry'
 	    @receiver = receiver
 	    @amount = amount
 	    @status = "pending"
+	    
+	    
   
 end
