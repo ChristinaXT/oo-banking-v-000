@@ -9,6 +9,10 @@ require 'pry'
 	    @amount = amount
 	    @status = "pending"
 	    
-	    
+	  def valid?
+	    @sender.valid? && @receiver.valid? ? true : false
+	  end
+	  
+	  
   
 end
